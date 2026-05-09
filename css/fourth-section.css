@@ -1,0 +1,34 @@
+.fourth-section {
+    padding-top: 120px;
+  padding-bottom: 120px;
+
+    @media screen and (min-width: 768px) {
+      padding: 2px;
+    }
+    
+    @media screen and (min-width: 1158px) {
+      padding:2px ;
+    }
+}
+.container {
+}
+.fourth-title {
+}
+.portfolio {
+}
+.portfolio-items {
+}
+.overlay {
+}
+.overlay-text {
+}
+.app {
+}
+.names-portfolio {
+}
+.description-portfolio {
+}
+.description-pofrtfolio {
+}
+.description-potrfolio {
+}

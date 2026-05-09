@@ -1,0 +1,156 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  height: 56px;
+  box-shadow:
+    0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    /* max-width: 100%; */
+    border-bottom: 1px solid #e7e9fc;
+    height: 72px;
+  }
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  min-height: 56px;
+}
+
+
+
+
+
+.nav-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-panel .nav-items {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-panel .nav-items {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+.site-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin: 0;
+  padding: 0;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+@media screen and (min-width: 1158px) {
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    padding: 24px 0;
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-active {
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link-active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+}
+
+.contact-information {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-information {
+    font-style: normal;
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .info-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .info-items {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+.info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.info:hover,
+.info:focus {
+  color: #404bbf;
+}
+
+.menu-open-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.6px;
+  color: #2f2f37;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+  }
+}
+
