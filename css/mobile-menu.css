@@ -1,0 +1,139 @@
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4); /* Темное затемнение */
+  z-index: 999;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+}
+
+.menu-container.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-menu {
+  max-width: 320px;
+  width: 100%;
+  height: 640px;
+  background-color: #ffffff; 
+  padding: 80px 35px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  position: relative;
+
+  transform: translateX(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-container.is-open .mobile-menu {
+  transform: translateX(0);
+}
+
+/* 3. ЭЛЕМЕНТЫ ВНУТРИ */
+.menu-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.mobile-nav-list,
+.mobile-contacts-list,
+.mobile-socials-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.mobile-nav-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.mobile-nav-link.current {
+  color: #404bbf;
+}
+
+.mobile-contacts-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.mobile-contacts {
+    margin-bottom: 48px;
+}
+
+.mobile-contacts-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #434455;
+}
+
+.mobile-contacts-link.accent {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #4d5ae5;
+}
+
+.mobile-socials-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 328px;
+}
+
+/* @media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+} */
+
+.socialmedia-list.accent {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* @media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+} */
