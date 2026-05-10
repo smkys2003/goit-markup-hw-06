@@ -1,14 +1,14 @@
-
-
+.third-section {
+  background-color: #f4f4fd;
+}
 
 .third-section {
   padding: 120px 0;
 }
 
-
 .third-title {
-margin-bottom: 72px;
-font-size: 36px;
+  margin-bottom: 72px;
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -17,32 +17,28 @@ font-size: 36px;
   font-weight: 700;
 }
 
-
-
 .workers {
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  padding: 28px;
 
-    @media screen and (min-width: 768px) {
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 64px 24px;
-      padding: 0;
-      justify-content: center;
-    }
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    padding: 0;
+    justify-content: center;
+  }
 }
 
-
 .members {
-border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   box-shadow:
     0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-   
 }
 
 @media screen and (min-width: 1158px) {
@@ -51,12 +47,11 @@ border-radius: 0px 0px 4px 4px;
   }
 }
 
-
 .workers-description {
-     padding: 32px 0;
+  padding: 32px 0;
 }
 .names {
-    font-weight: 500;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -65,22 +60,21 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 .description {
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-
 .socialmedia-list {
-    display: flex;
+  display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top:8px;
+  margin-top: 8px;
 }
 
 .socialmedia-item {
- width: 40px;
+  width: 40px;
   height: 40px;
 }
 
@@ -102,5 +96,9 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .socialmedia-icon {
-    fill: #f4f4fd;
+  fill: #f4f4fd;
+}
+
+.description {
+  text-align: center;
 }

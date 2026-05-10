@@ -1,3 +1,51 @@
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #31d0aa;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 0;
+}
+
+.footer-paragraph {
+  max-width: 264px;
+}
+
+.socialmedia-title-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.socialmedia-list-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.socialmedia-item-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.studio-second {
+  color: #f4f4fd;
+}
+
 .footer {
   padding: 0 16px;
 
@@ -59,6 +107,7 @@
   letter-spacing: 0.04em;
   cursor: pointer;
   margin: 0 auto;
+  gap: 16px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -71,6 +120,7 @@
   margin: 0 auto;
 
   @media screen and (min-width: 768px) {
+    padding-top: 0;
     width: 264px;
     text-align: left;
     margin: 0;
@@ -95,8 +145,6 @@
   }
 }
 
-.studio-second {
-}
 
 .footer-paragraph {
   max-width: 264px;
@@ -112,6 +160,7 @@
   padding-bottom: 72px;
 
   @media screen and (min-width: 768px) {
+    padding-top: 0;
     text-align: left;
     margin: 0;
   }
@@ -150,14 +199,6 @@
 
   @media screen and (min-width: 1158px) {
   }
-}
-.socialmedia-item-footer {
-}
-.social-link {
-}
-.social-link-footer {
-}
-.socialmedia-icon {
 }
 
 .subscribe-input {
@@ -232,13 +273,42 @@
   }
 }
 
-.label-footer {
-}
-
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: rgba(49, 208, 170, 1);
 }
 
-.button-footer-icon {
+.subscribe-label {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label-title {
+  color: white;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.subscribe-input:hover,
+.subscribe-input:focus {
+  border: 1px solid rgba(49, 208, 170, 1);
+}
+
+.subscribe-input:placeholder {
+  color: #ffffff;
+}
+
+.radius:hover,
+.radius:active {
+  border: 1px solid rgba(64, 75, 191, 1);
+  background-color: rgba(64, 75, 191, 1);
+}
+
+.radius:hover .icon-mark {
+  fill: white;
 }

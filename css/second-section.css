@@ -21,9 +21,8 @@
 }
 
 .second-section .container {
-    padding: 16px;
+  padding: 16px;
 }
-
 
 .second-title {
   font-weight: 500;
@@ -69,16 +68,14 @@
   }
 }
 
-
 @media screen and (min-width: 1158px) {
   .benefits-items {
     width: calc((100% - 3 * 24px) / 4);
   }
 }
 
-
 .names-benefits {
-  font-family:'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 8px;
   font-weight: 700;
   font-size: 36px;
@@ -89,7 +86,6 @@
   width: 100%;
 }
 
-
 @media screen and (min-width: 768px) {
   .names-benefits {
     text-align: start;
@@ -99,10 +95,9 @@
 
 @media screen and (min-width: 1158px) {
   .names-benefits {
-    line-height :24px;
+    line-height: 24px;
     font-weight: 500;
     font-size: 20px;
-
   }
 }
 
@@ -116,12 +111,3 @@
   color: #434455;
   text-align: start;
 }
-
-.icon-clock {
-}
-
-.icon-diagram {
-}
-.icon-astronaut {
-}
-
