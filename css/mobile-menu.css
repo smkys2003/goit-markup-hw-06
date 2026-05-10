@@ -47,7 +47,6 @@
   transform: translateX(0);
 }
 
-/* 3. ЭЛЕМЕНТЫ ВНУТРИ */
 .menu-close-btn {
   position: absolute;
   top: 24px;
@@ -121,19 +120,7 @@
   max-width: 328px;
 }
 
-/* @media screen and (min-width: 768px) {
-  .menu-container {
-    display: none;
-  }
-} */
-
 .socialmedia-list.accent {
     display: flex;
     justify-content: space-between;
 }
-
-/* @media screen and (min-width: 768px) {
-  .menu-container {
-    display: none;
-  }
-} */
