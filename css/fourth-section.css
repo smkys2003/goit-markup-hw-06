@@ -8,6 +8,12 @@
   }
 }
 
+.fourth-section .container {
+  @media screen and (max-width: 767px) {
+    padding: 0 28px;
+}
+}
+
 .fourth-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -24,7 +30,6 @@
   column-gap: 24px;
   row-gap: 48px;
   justify-content: center;
-  padding: 16px;
 
   @media screen and (min-width: 768px) {
     column-gap: 24px;

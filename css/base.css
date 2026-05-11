@@ -11,8 +11,9 @@ body {
 
 
 .container {
-  width: 100%;
+  max-width: 320px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,18 +41,17 @@ body {
 }
 
 ul,
-li {
+li,
+h1,
+h2,
+h3,
+h4{
   margin: 0;
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
 p {
   margin: 0;
-  padding: 0;
 }
 
 ul {
