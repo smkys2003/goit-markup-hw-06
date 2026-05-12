@@ -2,11 +2,20 @@
   background-color: #f4f4fd;
 }
 
-.third-section {
-  padding: 96px 0;
+.third-section .container {
 
-
+  @media screen and (max-width: 767px) {
+     padding-left: 28px;
+  padding-right: 28px;
+  }
   
+}
+
+
+.third-section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+
   @media screen and (min-width: 1158px) {
     padding: 120px 0;
   }
